@@ -7,15 +7,28 @@
 h1{
 border: 1px solid red;
 color: red;
+font-size: 100px;
 text-align: center;
 
 }
-div{
-	position: relativ e;
+div.headerimg{
+	position: relative;
     max-width: 100%;
     height : 600px;
 	background-image: url('img/image1.jpg');
 	background-size: cover;
-	border: 1px solid red;
+	background-repeat: no-repeat;
+	box-shadow: 5px 5px 15px 5px grey;
+	padding: 100px
+	borde r: 1px solid red;
 
+ }
+ div.top_strip{
+box-shadow: 5px 5px 15px 5px grey;
+ 	position: sticky;
+ 	top:0px;
+ 	display: block;
+ 	background-color: #1E90FF;
+ 	height: 50px;
+ 	border: 1px solid black;
  }
