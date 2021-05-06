@@ -35,10 +35,24 @@ div.headerimg{
  	height: 50px;
  	border: 1px solid black;
  }
- p{
+ 
+ p.side1{
  	position: absolute;
  	position: fixed;
  	top:100px;
+ 	padding: 10px;
+ 	border-radius: 10px;
+ 	background-color: red;
+ 	color:white;
+ writing-mode: vertical-rl; 
+
+ 
+
+}
+p.side2{
+ 	position: absolute;
+ 	position: fixed;
+ 	top:200px;
  	padding: 10px;
  	border-radius: 10px;
  	background-color: red;
