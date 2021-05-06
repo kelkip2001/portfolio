@@ -50,7 +50,7 @@ div.headerimg{
 
 }
 
-p.side3{
+p.side2{
  	position: absolute;
  	position: fixed;
  	top:200px;
@@ -63,3 +63,15 @@ p.side3{
  
 
 }
+
+
+p.side3{
+ 	position: absolute;
+ 	position: fixed;
+ 	top:300px;
+ 	padding: 10px;
+ 	border-radius: 10px;
+ 	background-color: red;
+ 	color:white;
+ writing-mode: vertical-rl; 
+
