@@ -89,6 +89,13 @@ border-radius: 20px;
 	text-align: center;
 	word-wrap: break-word;
 }
+.clearfix::after{
+	content: "";
+	clear: both;
+display: table;
+
+
+}
 button{
 	padding: 10px;
 	margin: 20px;
