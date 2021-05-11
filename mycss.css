@@ -75,6 +75,7 @@ p.side3{
 }
 .skill-image{
 	display: inline-block;
+	float: left;
 border-radius: 20px;
 	padding: 5px;
 	margin: 25px;
