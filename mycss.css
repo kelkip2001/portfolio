@@ -23,7 +23,7 @@ div.headerimg{
      box-shadow: inset 0px -2px 85px 16px rgba(221,240,233,0.59);
 
  }
- div.top_strip{
+ div.top_strip{         
  	position: sticky;
  	top:0px;
  	display: block;
@@ -47,6 +47,7 @@ color:white;
 	text-decoration: none;
 }
 a:hover{
+	background-color: transparent;
 
 	text-decoration: underline;
 	
@@ -70,6 +71,22 @@ p.side3{
  	background-color: red;
  	color:white;
  writing-mode: vertical-rl; 
+}
+.skill-image{
+
+	padding: 50px;
+	margin: 25px;
+	border: 2px solid green;
+
+}
+button{
+	padding: 10px;
+	margin: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #1E90FF;
+	color: white;
+	border-radius: 16px;
 }
 
 
