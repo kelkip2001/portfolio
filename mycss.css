@@ -76,11 +76,12 @@ p.side3{
 .skill-image{
 	display: inline-block;
 	float: left;
-border-radius: 20px;
-	padding: 5px;
+    border-radius: 20px;
+	padding: 10px;
 	margin: 25px;
 	max-width: 200px;
-	border: 2px solid green;
+	border: 2px dotted lightgrey;
+
 
 }
 .skill-image > p {
@@ -93,8 +94,12 @@ border-radius: 20px;
 	content: "";
 	clear: both;
 display: table;
+}
+.clearfix{
 
-
+	margin: 0 0px;
+	padding: 0 0px;
+	border: 5px solid green;
 }
 button{
 	padding: 10px;
@@ -106,5 +111,14 @@ button{
 	border-radius: 16px;
 }
 
+tr,td,table,th{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 15px;
+	text-align: left;
+}
+#t01 tr:nth-child(odd){
 
+	background-color: pink;
+}
 
