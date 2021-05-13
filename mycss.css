@@ -30,7 +30,26 @@ div.headerimg{
  	display: block;
  	background-color: #1E90FF;
  	height: 50px;
- 	border: 1px solid black;
+ 	borde r: 1px solid black;
+ }
+ ul.nav{
+ 	position: absolute;
+ 	top:10px;
+ 	right: 0;
+ 	display: inline-block;
+ 	list-style-type: none;
+ 	borde r: 1px solid black;
+ 	padding: 1px;
+ 	positio n: sticky;
+ }
+ .nav > li{
+ 	borde r: 2px solid green;
+ 	border-radius: 10px;
+ 	display: inline;
+ 	margin: 10px;
+ 	padding: 5px;
+ 	color: white;
+ 	background-color: red;
  }
  p.side1{
  	position: absolute;
@@ -48,9 +67,12 @@ color:white;
 	text-decoration: none;
 }
 a:hover{
-	background-color: transparent;
 
-	text-decoration: underline;
+	color: white;
+	font-size: 25px;
+font-weight:bolder;
+
+	text-decoration: none;
 	
 }
 p.side2{
@@ -100,6 +122,18 @@ display: table;
 	margin: 0 0px;
 	padding: 0 0px;
 	border: 5px solid green;
+	max-width:100%;
+}
+.cert-iframe{
+	border:1px solid blue;
+	float: left;
+	display: inline-block;
+	margin: 20px;
+}
+.cert-iframe  p {
+	width: 300px;
+	text-align: center;
+	borde r: 5px solid green;
 }
 button{
 	padding: 10px;
@@ -120,5 +154,11 @@ tr,td,table,th{
 #t01 tr:nth-child(odd){
 
 	background-color: pink;
+}
+footer{
+	height: 50px;
+	padding: 50px;
+border: 2px dotted lightgrey;
+	background-color: lightgrey;
 }
 
